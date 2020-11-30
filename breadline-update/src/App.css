@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+ height: 99vh; 
+
+}
+
+
+.paper {
+   width: 500px;
+   height: 500px;
+   align-self: center;
+   margin-bottom: 100px;
+   padding: 20px; 
+}
+
+.button {
+  margin-top: 15px; 
+
+}
+
+.label {
+  font-weight: bold; 
+  margin-top: 15px; 
+}
+
+.left {
+  display: flex;
+  height: 50px; 
+   
+}
+.right {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 20px; 
+   
+}
+
+.errorbox {
+  width: 300px; 
+  text-align: right; 
+  font-size: x-small; 
+  color: red; 
+
+}
+
+.hide {
+	display: none
+}
+
+.successful {
+  width: 500px; 
+  color: green;  
+
+}
+
+.hide2 {
+	display: none
+}
